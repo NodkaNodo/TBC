@@ -1,0 +1,93 @@
+//! FLEX MIXINS \\\
+
+//? FLEX ROW \\
+@mixin flexRowGap($gap) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexAlignAndJustifyCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flexAlignAndJustifyCenterWithGap($gap) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $gap;
+}
+
+//? FLEX COLUMN \\
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flexColumnGap($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+/////////////////////////////////////
+
+//! WIDTH AND HEIGHTS \\\
+@mixin widthAndHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+//! POSITION ABSOLUTE \\\
+@mixin positionAbsoluteTopLeft($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+@mixin positionAbsoluteTopRight($top, $right) {
+  position: absolute;
+  top: $top;
+  right: $right;
+}
+
+@mixin topLeft($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+//! @@@ MEDIA @@@   MIXINS \\\
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 23.4375rem) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-md {
+    @media (max-width: 36rem) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 49.125em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktop-md {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (max-width: 87.5em) {
+      @content;
+    }
+  }
+}

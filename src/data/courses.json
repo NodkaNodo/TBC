@@ -1,0 +1,47 @@
+[
+    {
+        "img": "/assets/courses/course-1.webp",
+        "title": "iOS Developement",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-2.webp",
+        "title": "React",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-3.webp",
+        "title": "Intro to Python",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-4.webp",
+        "title": "Advanced Python",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-5.webp",
+        "title": "Advanced Cybersecurity Course",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-6.webp",
+        "title": "ToT - Training of Trainers",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-7.webp",
+        "title": "Blockchain",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-8.webp",
+        "title": "DevOps",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    },
+    {
+        "img": "/assets/courses/course-9.webp",
+        "title": "Information Security Governance",
+        "link": "https://www.tbcacademy.ge/usaid/ios-development"
+    }
+]

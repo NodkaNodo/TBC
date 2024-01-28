@@ -1,0 +1,51 @@
+.footer {
+  min-height: 22.8rem;
+  background-color: $color-black-secondary;
+  padding-block: 6rem;
+  &__container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    @include respond(phone-md) {
+      grid-row-gap: 3rem;
+    }
+  }
+  &__tbc-logo {
+    width: 20.6rem;
+    height: 3rem;
+    @include widthAndHeight(10.6rem, 3rem);
+  }
+  &__info {
+    @include flexColumnGap(2.5rem);
+    font-size: 1.4rem;
+    grid-area: 2/1/3/2;
+    @include respond(phone-md) {
+      grid-area: 3/1/4/3;
+      flex-direction: column-reverse;
+    }
+  }
+  &__actions {
+    @include flexColumnGap(5rem);
+    grid-area: 1/2/3/4;
+    align-items: flex-end;
+    @include respond(phone-md) {
+      grid-area: 2/1/3/3;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  }
+  &__social-media {
+    @include flexRowGap(1rem);
+    justify-content: flex-end;
+  }
+  &__button {
+    font-size: 1.6rem;
+    padding-inline: 2rem;
+    color: $color-white;
+    background-color: $color-secondary-2;
+    font-weight: 600;
+    @include widthAndHeight(16.2rem, 4rem);
+    border-radius: 0.8rem;
+  }
+}

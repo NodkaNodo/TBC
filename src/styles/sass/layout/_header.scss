@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 8.4rem;
+  background-color: $color-black-secondary;
+  transition: all 1.5s;
+  &--with-non-initial-position {
+    opacity: 0.94;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    &__items {
+      @include flexRowGap(3rem);
+      @include respond(phone-md) {
+        display: none;
+      }
+    }
+    &__item {
+      @include flexAlignAndJustifyCenter;
+      font-size: 1.4rem;
+    }
+    &__item:hover {
+      color: $color-secondary-dark;
+    }
+  }
+}

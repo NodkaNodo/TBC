@@ -1,0 +1,21 @@
+.courses {
+  padding-block: 4rem;
+  background-color: $color-black;
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 2.5rem;
+
+    @include respond(desktop-md) {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+    @include respond(tablet) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__title {
+    margin-bottom: 6.7rem;
+  }
+}

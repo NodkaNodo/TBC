@@ -1,0 +1,30 @@
+.card {
+  @include widthAndHeight(30rem, 42rem);
+  display: grid;
+  grid-template-rows: 15rem 1fr;
+  border: 1px solid rgba(85, 85, 85, 1);
+  border-radius: 0.6rem;
+  overflow: hidden;
+
+  &__content {
+    @include flexColumn;
+    justify-content: space-between;
+    padding: 3.4rem 1.7rem 2.1rem 1.7rem;
+  }
+  &__information {
+    @include flexColumnGap(2.8rem);
+  }
+  &__title {
+    font-size: 1.8rem;
+  }
+  &__description {
+    font-size: 1.4rem;
+  }
+  &__button-wrapper {
+    @include flexRowGap(0.8rem);
+    color: $color-secondary;
+    a {
+      font-size: 1.6rem;
+    }
+  }
+}

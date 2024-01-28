@@ -1,0 +1,14 @@
+{
+  "name": "TBC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass src/styles/sass/main.scss src/styles/styles.css -w"
+  },
+  "author": "Nodar Imedashvili",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

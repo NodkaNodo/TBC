@@ -1,0 +1,8 @@
+.button {
+  cursor: pointer;
+  &--section {
+    font-size: 2rem;
+    color: $color-secondary-2;
+    font-weight: 600;
+  }
+}

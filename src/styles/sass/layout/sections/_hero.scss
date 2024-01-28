@@ -1,0 +1,17 @@
+.hero {
+  height: 35.2rem;
+  background-image: url(/src/assets/hero/about.webp);
+  background-size: cover;
+  &__container{
+    @include flexColumnGap(1.5rem);
+    height: 100%;
+    justify-content: center;
+  }
+  &__title {
+    font-size: 4.2rem;
+  }
+  &__sub-title {
+    font-size: 3.4rem;
+    background-color: bold;
+  }
+}
