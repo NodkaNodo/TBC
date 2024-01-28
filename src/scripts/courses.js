@@ -6,7 +6,7 @@ export const generateCards = () => {
     .map((course, i) => {
       return `<div class="card">
             <img
-              src="../src${course?.img}"
+              src=".${course?.img}"
               alt="course-${i + 1}"
               class="card__img"
             />
@@ -17,7 +17,7 @@ export const generateCards = () => {
               </div>
               <div class="card__button-wrapper">
                 <img
-                  src="/src/assets/general/arror-right.svg"
+                  src="./assets/general/arror-right.svg"
                   alt="arrow-right"
                 />
                 <a href="${course?.link}">კურსის დეტალები</a>
@@ -29,6 +29,3 @@ export const generateCards = () => {
 
   cardsContainer.innerHTML = cards;
 };
-
-
-
