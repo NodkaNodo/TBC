@@ -1,6 +1,6 @@
 .hero {
   height: 35.2rem;
-  background-image: url(../../../../assets/hero/about.webp);
+  background-image: url(/assets/hero/about.webp);
   background-size: cover;
   &__container {
     @include flexColumnGap(1.5rem);
