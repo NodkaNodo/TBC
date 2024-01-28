@@ -20,5 +20,9 @@ SCSS - დამატებითი ბენეფიტებისთვი
 JS - კომპონენტების გასაცოცლებლად
 
 
+
 ინსტრუქცია პროექტის გასაშვებად:
 
+პროექტი დაჰოსტილია - https://tbc-ni.netlify.app/
+
+ან შეგიძლიათ გაუშვათ VS Code_ის live server extension - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
