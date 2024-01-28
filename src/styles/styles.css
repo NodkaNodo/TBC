@@ -338,7 +338,7 @@ body {
 
 .hero {
   height: 35.2rem;
-  background-image: url(/src/assets/hero/about.webp);
+  background-image: url(../assets/hero/about.webp);
   background-size: cover; }
   .hero__container {
     display: flex;
